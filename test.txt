@@ -1,0 +1,7 @@
+ <div class="round"> <img src="test2.jpg"  /> </div>
+	<div  class="round" id="round2" style="right:40px;"> <img src="thickbox.jpg"  /> </div>
+  
+  <div style="clear:both;height:0%;width:0%;display:block;visibility:hidden;"> </div>
+    
+
+	

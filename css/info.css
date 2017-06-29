@@ -1,0 +1,111 @@
+body,html{
+		margin:0px;
+		padding:0px;
+		
+
+}
+
+div.inner-box-second input[type="text"]{
+ width:40%;
+ height:40px;
+ float:left;
+ box-sizing:border-box;
+border-left:1px solid rgba(0,0,0,0.5);
+margin:0px;
+padding:0px;
+font-weight:300;color:#5d5d5d;font-size:100%;font-family:'Open Sans','Helvetica Neue',Helvetica,Calibri,Arial,sans-serif;
+ }
+
+			
+
+
+/*
+			here comes the code for 3d image hover
+
+*/
+
+#container 	{ 
+	 background:url('image-slider-4.jpg');
+			width:80%;
+			margin:10px auto;
+		
+          height:400px;
+		overflow:hidden;
+		box-sizing:border-box;
+		box-shadow:0 3px 3px #ddd;
+
+ 
+	border: 1px solid #ccc;
+z-index:5001;	
+}
+
+.parent1 	{ 
+	/* overall animation container */
+	height: 0; 
+	overflow: hidden;
+
+	transition-property: height;
+	transition-duration: 1s;
+	perspective: 1000px;
+	transform-style: preserve-3d;
+}
+.parent2	{ 
+	/* full content during animation *can* go here */ 
+}
+.parent3	{ 
+	/* animated, "folded" block */
+
+	transition-property: all; 
+	transition-duration: 1s;
+	transform: rotateX(-90deg);
+	transform-origin: top; 
+}
+
+/* Hover states to trigger animations */
+#container:hover .parent1	{ 
+
+	height:400px;
+}
+#container:hover .parent3	{
+	transform: rotateX(0deg); 
+	
+
+	}
+#google_map{
+		margin-top:-150px;
+		opacity: 1.0;
+		width:100%;
+		margin-bottom:-4px;
+		box-sizing:border-box;
+         float:left;
+			min-height:99%;
+}
+#resize2{
+float:left;
+			margin:0px;
+		width:100%;
+			background:white;
+			
+			box-shadow:1px 3px 3px #eee,;
+min-height:1%;
+box-sizing:border-box;
+}
+#resize2 hr{
+background-color:black;
+margin-top:0px;
+margin-bottom:0px;
+
+padding:0px;
+		z-index:10000;
+		   color:black;
+}
+#resize:hover{
+				cursor:s-resize;
+
+}
+#resizable{
+			border:2px solid black;
+				height:250px;
+			max-height:370px;
+			box-sizing:border-box;
+}

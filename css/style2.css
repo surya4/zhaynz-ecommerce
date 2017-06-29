@@ -1,0 +1,192 @@
+html, body{
+	 margin:0px;
+	 padding:0px;
+
+}
+#header{
+
+		background-color:#11213d;
+		width:100%;
+		height:70px ;
+		margin-top:0.4px;
+		margin-bottom:0px;
+		z-index:10000;
+}
+#body{
+
+		background-color:#ffffff;
+		width:100%;
+       clear:both;
+}
+
+
+
+	#search  {
+				float:left;
+				display:inline-block;
+
+			width:700px;
+			height:40px;
+			border-radius:5px 0px 0px 5px;
+
+			padding:0px;
+
+     }
+	 div.searchbox{
+
+				position:absolute;
+				top:360px;
+				left:283px;
+				padding:5px;
+				border-radius:5px;
+				box-sizing:border-box;
+			background-color:#11213d;
+	}
+	 div.searchbox  input[type="submit"]{
+
+		 display:block;
+		 margin-left:1.5px;
+		 margin-top:1px;
+		 padding:0px;
+		 color:white;
+		font-family:Tahoma, Geneva, sans-serif;
+		text-align:center;
+		 width:100px;
+		 background-color:#11213d;
+		 border:none;
+		 float:left;
+	height:42px;
+	cursor:pointer;
+	 }
+
+
+
+#header ul {
+			margin:0px;
+			padding:0px;
+			list-style:none;
+	        margin-right:40px;
+
+}
+.first{
+	         border-radius:4px;
+	}
+.last{
+
+	        border-radius:4px;
+
+	}
+
+
+	#header ul li{
+
+				float:right;
+				font-family:'tahoma',sans-serif;
+				font-size:13px;
+				margin-top:25px;
+				margin-right:30px;
+	 }
+
+	li input[type="button"] {
+			width:90px;
+			height:30px;
+			color:white;
+		   text-align:center;
+	       background:#11213d;
+	}
+
+
+
+	#title{
+				position:absolute;
+				top:10px;
+				left:10px;
+
+	}
+
+div.category{
+margin-top:100px;
+width:100%;
+overflow:visible;
+}
+
+	p.category {
+
+		          font-family:"Open Sans","Helvetica Neue",Helvetica,Calibri,Arial,sans-serif;
+           text-align:center;
+				 color:#5D5D5D;
+				   font-size:24px;
+				   font-weight:300;
+
+	}
+
+
+	.category div{
+position:relative;
+	float:left;
+  -webkit-border-radius:4px;
+   width:285px;
+   height:115px;
+					   border:1px solid black;
+
+
+						margin-bottom:20px;
+	               margin-right:25px;
+				   overflow:hidden;
+	}
+	.category div img{
+
+	            width:300px;
+				height:120px;
+				z-index:0;
+	}
+
+	.category span{
+display:block;
+clear:both;
+margin-top:50px;
+background-color:#11213d;
+		width:100%;
+		height:130px;
+	overflow:visible;
+}
+
+#map{
+
+		width:100%;
+        z-index:1000;
+		overflow:hidden;
+}
+#google_map{
+
+	          width:100%;
+			    height:800px;
+	    		 z-index:100;
+
+}
+.search{
+float:left;
+display:inline-block;
+			width:400px;
+			height:40px;
+			border-radius:5px 0px 0px 5px;
+			padding:0px;
+
+
+}
+	 div.servicesearch input[type="submit"]{
+
+		 display:block;
+		 margin-left:1.5px;
+		 margin-top:1px;
+		 padding:0px;
+		 color:white;
+		font-family:Tahoma, Geneva, sans-serif;
+		text-align:center;
+		 width:100px;
+		 background-color:#11213d;
+		 border:none;
+		 float:left;
+	height:42px;
+	cursor:pointer;
+	 }

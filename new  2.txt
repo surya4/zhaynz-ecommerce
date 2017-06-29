@@ -1,0 +1,18 @@
+ $('div.inner-box-third>ul>li ').css('border-right','1px solid #eee');
+				  $('div.inner-box-third>ul>li ').css('text-align','center');
+				  $('div.inner-box-third>ul').find('li').last().css('border-right','none')
+				  
+				  
+				  
+				  document.getElementById("google_map").height= height+10;
+				  
+				  
+				  
+				  	name.onmouseup(function (e){
+									heightchange = self.style.top - currenttop;
+									var google_map  = document.getElementById('google_map') ;
+									google_map.style.height = google_map.style.height +heightchange+'px';
+											
+				});			
+						
+			

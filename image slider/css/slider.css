@@ -1,0 +1,14 @@
+
+
+
+#slider{
+width:100%;
+height:400px;
+overflow:hidden;
+}
+#slider > img {
+					width:100%;
+					height:400px;
+					float:left;
+					display:none;
+}
